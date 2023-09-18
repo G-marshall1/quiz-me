@@ -25,7 +25,7 @@ No installation needed since it is a landing page that can be viewed here https:
 -User will be able to log their name on a score board and view local history of the score board or clear it.
 
 
-[https://user-images.githubusercontent.com/122425742/226254736-f5a17896-3675-48a8-b952-ba0448030038.mp4](<../../Downloads/Quiz Me!.webm>)
+![Alt text](<Quiz Me!.gif>)
 
 
 
