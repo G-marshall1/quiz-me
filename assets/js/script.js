@@ -1,28 +1,28 @@
 const questionsArr = [
   {
-    text: "Question 1",
-    answers: ["Answer 1", "Answer 2", "Answer 3", "Answer 4"],
-    correct: "option 2",
+    text: "What can loops offer JavaScript code as a whole?",
+    answers: ["Improved performance.", "Cleaner syntax.", "Adding plug-ins.", "Cross-platform support"],
+    correct: "Improved performance.",
   },
   {
-    text: "Question 2",
-    answers: ["Answer 1 for questtion 2", "Answer 2", "Answer 3", "Answer 4"],
-    correct: "option 2",
+    text: "In JavaScript, what element is used to store and manipulate text usually in multiples?",
+    answers: ["Arrays", "Variables", "Strings", "Function"],
+    correct: "Strings",
   },
   {
-    text: "Question 3",
-    answers: ["Answer 1 for questtion 3", "Answer 2", "Answer 3", "Answer 4"],
-    correct: "option 2",
+    text: "What is the language or list of instructions that are executed by the computer (how JavaScript is built)?",
+    answers: ["Scope", "JSON", "Output", "Syntax"],
+    correct: "Syntax",
   },
   {
-    text: "Question 4",
-    answers: ["Answer 1 for questtion 4", "Answer 2", "Answer 3", "Answer 4"],
-    correct: "option 2",
+    text: "Where is the JavaScript placed inside an HTML document or page?",
+    answers: ["In the <body> and <head> sections.", "In the <meta> section.", "In the <title> section.", "In the <footer> section."],
+    correct: "In the <body> and <head> sections.",
   },
   {
-    text: "Question 5",
-    answers: ["Answer 1 for questtion 5", "Answer 2", "Answer 3", "Answer 4"],
-    correct: "option 2",
+    text: "What is considered to be the most popular programming language in the world?",
+    answers: ["HTML", "Ruby", "Swift", "JavaScript"],
+    correct: "JavaScript",
   },
 ];
 
@@ -71,6 +71,9 @@ function timer() {
 function displayQuestion() {
   questions.textContent = questionsArr[currentIndex].text;
   buttoneOne.textContent = questionsArr[currentIndex].answers[0];
+  buttoneTwo.textContent = questionsArr[currentIndex].answers[1];
+  buttoneThree.textContent = questionsArr[currentIndex].answers[2];
+  buttoneFour.textContent = questionsArr[currentIndex].answers[3];
 }
 
 function nextQuestion(event) {

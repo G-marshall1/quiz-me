@@ -1,9 +1,5 @@
+body {
 
-
-.container-2 {
-    display: none;
-   flex-direction: column;
-   align-items: center;
 }
 
 header {
@@ -14,10 +10,13 @@ header {
 
 #high-score {
     color: blueviolet;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
 }
 
 #high-score:hover {
     color: blue;
+    cursor: pointer;
 }
 
 
@@ -25,16 +24,138 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30%;
+    
+}
+
+#start {
+    padding: 15px 32px;
+    background-color: #ab20b5;
+    margin: 4px 2px;
+    
+    box-shadow: 2px 3px rgb(216, 215, 215);
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 15px 15px 15px 15px ;
+}
+
+#start:hover {
+    background-color: rgb(204, 7, 119);
+}
+
+.container-2 {
+    display: none;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 30%;
+}
+
+.answerBtns {
+display: contents;
+}
+
+#answerOne {
+    padding: 15px 32px;
+    background-color: #ab20b5;
+    
+    box-shadow: 2px 3px rgb(216, 215, 215);
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 15px 15px 15px 15px ;
+}
+
+#answerOne:hover {
+    background-color: rgb(204, 7, 119);
+}
+
+#answerTwo {
+    margin-top: 10px;
+    padding: 15px 32px;
+    background-color: #ab20b5;
+    
+    box-shadow: 2px 3px rgb(216, 215, 215);
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 15px 15px 15px 15px ;
+}
+
+#answerTwo:hover {
+    background-color: rgb(204, 7, 119);
+}
+
+#answerThree {
+    margin-top: 10px;
+    padding: 15px 32px;
+    background-color: #ab20b5;
+    
+    box-shadow: 2px 3px rgb(216, 215, 215);
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 15px 15px 15px 15px ;
+}
+
+#answerThree:hover {
+    background-color: rgb(204, 7, 119);
+}
+
+#answerFour {
+    margin-top: 10px;
+    padding: 15px 32px;
+    background-color: #ab20b5;
+    
+    box-shadow: 2px 3px rgb(216, 215, 215);
+    cursor: pointer;
+    color: aliceblue;
+    border-radius: 15px 15px 15px 15px ;
+}
+
+#answerFour:hover {
+    background-color: rgb(204, 7, 119);
 }
 
 .container-3 {
     display: none;
     flex-direction: column;
     align-items: center;
+    margin-top: 30%;
+}
+
+#submit {
+    margin-top: 15px;
+    background-color: #ab20b5;
+    box-shadow: 2px 3px rgb(216, 215, 215);
+    cursor: pointer;
+    color: aliceblue;
+    padding: 15px 32px;
+    border-radius: 15px 15px 15px 15px ;
+}
+
+#submit:hover {
+    background-color: rgb(204, 7, 119);
+   
 }
 
 .container-4 {
     display: none;
     flex-direction: column;
     align-items: center;
+    margin-top: 30%;
+}
+
+#clear,
+#goBack{
+    margin-top: 15px;
+    background-color: #ab20b5;
+    box-shadow: 2px 3px rgb(216, 215, 215);
+    cursor: pointer;
+    color: aliceblue;
+    padding: 15px 32px;
+    border-radius: 15px 15px 15px 15px ;
+}
+
+#clear:hover {
+    background-color: rgb(204, 7, 119);
+}
+#goBack:hover {
+    background-color: rgb(204, 7, 119);
 }
